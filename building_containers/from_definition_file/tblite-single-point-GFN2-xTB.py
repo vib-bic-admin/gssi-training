@@ -1,1 +1,0 @@
-../../tblite_python_demo/tblite-single-point-GFN2-xTB.py
