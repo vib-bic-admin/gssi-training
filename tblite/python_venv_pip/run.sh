@@ -23,4 +23,4 @@ fi
 # Activate venv
 source ${VENVDIR}/venv_tblite/bin/activate
 
-python3 $RUNSCRIPT
+python $RUNSCRIPT
