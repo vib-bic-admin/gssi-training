@@ -11,7 +11,8 @@ subdirectory has to contain the following bash scripts:
 
 - `install.sh`: this installs tblite. By default, `$VSC_DATA` is used as the
   base directory, but in case the `$GSSI_BASEDIR` variable is set it should
-  be used instead.
+  be used instead. The install script should be idempotent, it should succeed
+  if an existing installation is already present.
 - `run.sh`: this runs the Python script that is provided as the first
   command-line argument, making use of the installation done by `install.sh`
 
