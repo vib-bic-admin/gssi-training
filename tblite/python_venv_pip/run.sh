@@ -18,6 +18,7 @@ VENVDIR=${BASEDIR}/venv_tblite
 if [ ! -d $VENVDIR ];
 then
     echo "venv directory ${VENVDIR} does not exist, use install.sh to create it first"
+    exit 1
 fi
 
 # Activate venv
