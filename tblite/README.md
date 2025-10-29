@@ -34,7 +34,9 @@ The last command should print an energy of -42.14746315838075.
 
 - `python_venv_pip`
   - The pip package for `tblite==0.4.0` is only available for `python>=3.7`.
-    The installation will fail on the VUB and KU Leuven/UHasselt Rocky8 nodes.
+    The installation will fail on the VUB and KU Leuven/UHasselt Rocky8 nodes
+    (which on the VUB cluster is only the case for login nodes, *not* for the
+    compute nodes).
 
 ### TODO
 
