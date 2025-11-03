@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREFIX=$VSC_SCRATCH/gssi
+PREFIX=$VSC_DATA/gssi
 cd $PREFIX
 source spack/share/spack/setup-env.sh
 

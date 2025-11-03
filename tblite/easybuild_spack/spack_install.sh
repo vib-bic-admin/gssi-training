@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREFIX=$VSC_SCRATCH/gssi
+PREFIX=$VSC_DATA/gssi
 mkdir -p $PREFIX
 
 cd $PREFIX

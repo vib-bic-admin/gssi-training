@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PREFIX=$VSC_SCRATCH/gssi/easybuild
+PREFIX=$VSC_DATA/gssi/easybuild
 source $PREFIX/venv/activate
 
 export EASYBUILD_PREFIX=$VSC_DATA/easybuild
