@@ -44,15 +44,13 @@ source {{ conda_base }}/etc/profile.d/conda.sh
 conda activate tblite
 exec "$@"
 
-# optional help section
-%help
+%help # optional help section
 This container holds a minimal conda environment with 'tblite-python', installed on an Ubuntu 24.04 base.
 Usage:
 $ apptainer run <image> tblite --version
 $ apptainer run <image> python -c 'import tblite'
 
-# optional test section
-%test
+%test # optional test section
 echo "Looking for tblite executable ..."
 ( /.singularity.d/runscript tblite --version | grep -q "tblite version" ) && echo "Success!" || { echo "Fail"; exit 1; }
 echo "Looking for tblite Python package ..."
